@@ -50,7 +50,7 @@ func main() {
 	fmt.Println(sp.age)
 
 	// Structs are mutable.
-	sp.age = 51
+	s.age = 51
 	fmt.Println(sp.age)
 
 	// If a struct type is only used for a single value, we don't
